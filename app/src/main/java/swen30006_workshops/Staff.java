@@ -1,4 +1,4 @@
-package com.unimelb.swen30006.workshops;
+package swen30006_workshops;
 
 import java.util.List;
 

@@ -1,4 +1,6 @@
-package com.unimelb.swen30006.workshops;
+package swen30006_workshops;
+
+import java.util.List;
 
 /** A simple interface to allow for generic submission validators with different
  * validation rules for assignment submissions.
@@ -12,6 +14,6 @@ public interface SubmissionValidator {
      * @param submission the assignment submission to validate
      * @return an array of validation errors (or possibly null if no errors)
      */
-    ValidationError[] validateSubmission(Submission submission);
+    List<ValidationError> validateSubmission(Submission submission);
 
 }
